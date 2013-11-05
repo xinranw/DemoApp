@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE49EF9C18289E1B00618246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE49EF9B18289E1B00618246 /* Main.storyboard */; };
+		CE49EFA51828A36100618246 /* XIWModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE49EFA41828A36100618246 /* XIWModalViewController.m */; };
+		CE49F0211828A4D500618246 /* XIWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE49F0201828A4D500618246 /* XIWViewController.m */; };
 		CED141B118289C420084392E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED141B018289C420084392E /* Foundation.framework */; };
 		CED141B318289C420084392E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED141B218289C420084392E /* CoreGraphics.framework */; };
 		CED141B518289C420084392E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED141B418289C420084392E /* UIKit.framework */; };
@@ -32,6 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE49EF9B18289E1B00618246 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		CE49EFA31828A36100618246 /* XIWModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIWModalViewController.h; sourceTree = "<group>"; };
+		CE49EFA41828A36100618246 /* XIWModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIWModalViewController.m; sourceTree = "<group>"; };
+		CE49F01F1828A4D500618246 /* XIWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIWViewController.h; sourceTree = "<group>"; };
+		CE49F0201828A4D500618246 /* XIWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIWViewController.m; sourceTree = "<group>"; };
 		CED141AD18289C420084392E /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED141B018289C420084392E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CED141B218289C420084392E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,6 +117,11 @@
 			children = (
 				CED141BF18289C420084392E /* XIWAppDelegate.h */,
 				CED141C018289C420084392E /* XIWAppDelegate.m */,
+				CE49EF9B18289E1B00618246 /* Main.storyboard */,
+				CE49F01F1828A4D500618246 /* XIWViewController.h */,
+				CE49F0201828A4D500618246 /* XIWViewController.m */,
+				CE49EFA31828A36100618246 /* XIWModalViewController.h */,
+				CE49EFA41828A36100618246 /* XIWModalViewController.m */,
 				CED141C218289C420084392E /* Images.xcassets */,
 				CED141B718289C420084392E /* Supporting Files */,
 			);
@@ -220,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE49EF9C18289E1B00618246 /* Main.storyboard in Resources */,
 				CED141BB18289C420084392E /* InfoPlist.strings in Resources */,
 				CED141C318289C420084392E /* Images.xcassets in Resources */,
 			);
@@ -241,7 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED141BD18289C420084392E /* main.m in Sources */,
+				CE49F0211828A4D500618246 /* XIWViewController.m in Sources */,
 				CED141C118289C420084392E /* XIWAppDelegate.m in Sources */,
+				CE49EFA51828A36100618246 /* XIWModalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +452,7 @@
 				CED141DB18289C420084392E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CED141DC18289C420084392E /* Build configuration list for PBXNativeTarget "DemoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +461,7 @@
 				CED141DE18289C420084392E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
